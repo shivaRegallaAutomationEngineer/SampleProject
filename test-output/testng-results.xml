@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="91339" started-at="2019-08-18T06:14:55Z" finished-at="2019-08-18T06:16:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="91339" started-at="2019-08-18T06:14:55Z" finished-at="2019-08-18T06:16:26Z">
+      <class name="testCases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.LoginPageTest@343f4d3d]" name="setUp" is-config="true" duration-ms="16448" started-at="2019-08-18T06:14:55Z" finished-at="2019-08-18T06:15:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="VerifywithinValidCredentials(java.lang.String, java.lang.String)[pri:0, instance:testCases.LoginPageTest@343f4d3d]" name="VerifywithinValidCredentials" duration-ms="23983" started-at="2019-08-18T06:15:12Z" data-provider="Login Details1" finished-at="2019-08-18T06:15:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr212643]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[japatar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifywithinValidCredentials -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:testCases.LoginPageTest@343f4d3d]" name="quitDriver" is-config="true" duration-ms="4352" started-at="2019-08-18T06:15:36Z" finished-at="2019-08-18T06:15:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.LoginPageTest@343f4d3d]" name="setUp" is-config="true" duration-ms="15524" started-at="2019-08-18T06:15:40Z" finished-at="2019-08-18T06:15:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="VerifywithinValidCredentials(java.lang.String, java.lang.String)[pri:0, instance:testCases.LoginPageTest@343f4d3d]" name="VerifywithinValidCredentials" duration-ms="25539" started-at="2019-08-18T06:15:56Z" data-provider="Login Details1" finished-at="2019-08-18T06:16:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr212643]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[japatar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifywithinValidCredentials -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:testCases.LoginPageTest@343f4d3d]" name="quitDriver" is-config="true" duration-ms="4857" started-at="2019-08-18T06:16:21Z" finished-at="2019-08-18T06:16:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- testCases.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
