@@ -14,7 +14,7 @@ public class DataDriven {
 @Test(dataProvider="Login Details")
 	
 	public void login(String first,String last) throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver","D:\\softwares\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","D:\\softwares\\Drivers\\chromedriver.exe");
 	     WebDriver driver=new ChromeDriver();
 	    
 		driver.manage().window().maximize(); 
@@ -28,7 +28,7 @@ public class DataDriven {
 	@DataProvider(name="Login Details")
 	public Object[][] getLoginData(){
 		ExcelUtility ec= new ExcelUtility();
-		ec.openExcel("LoginDetails");
+		ec.openExcel("TestData");
 		int rows=   ec.getRowNum();
 		int cols=    ec.getColNum(0);
 		Object[][] data= new Object[rows-1][cols];

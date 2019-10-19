@@ -12,7 +12,7 @@ import Pages.LoginPage;
 public class LoginPageTest extends CommonMethods {
 	
 	
-	@Test(dataProvider="Login Details",enabled=false)
+	@Test(dataProvider="Login Details")
 	public void VerifywithValidCredentials(String username,String password) throws InterruptedException {
 		LoginPage loginpage= new LoginPage();
 		
@@ -25,7 +25,7 @@ public class LoginPageTest extends CommonMethods {
 		
 	}
 	
-	@Test(dataProvider="Login Details1")
+	@Test(dataProvider="Login Details1",enabled=false)
 	public void VerifywithinValidCredentials(String username,String password) throws InterruptedException {
 		LoginPage loginpage= new LoginPage();
 		
@@ -47,7 +47,7 @@ public class LoginPageTest extends CommonMethods {
 	@DataProvider(name="Login Details")
 	public Object[][] getLoginData(){
 		ExcelUtility ec= new ExcelUtility();
-		ec.openExcel("LoginDetails");
+		ec.openExcel("TestData");
 		int rows=   ec.getRowNum();
 		int cols=    ec.getColNum(0);
 		Object[][] data= new Object[rows-1][cols];

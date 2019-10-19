@@ -22,7 +22,7 @@ public class ExcelUtility {
 	public void openExcel( String sheetName) {
 
 		try {
-			fis = new FileInputStream("C:\\Users\\Shiva\\Desktop\\TestData.xlsx");
+			fis = new FileInputStream("C:\\Users\\Pranitha Regalla\\Desktop\\TestData.xlsx");
 			workbook = new XSSFWorkbook(fis);
 			sheet = workbook.getSheet(sheetName);
 		} catch (FileNotFoundException e) {

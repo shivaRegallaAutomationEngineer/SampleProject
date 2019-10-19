@@ -2,56 +2,56 @@
 <testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="91339" started-at="2019-08-18T06:14:55Z" finished-at="2019-08-18T06:16:26Z">
+  <suite name="Default suite" duration-ms="79736" started-at="2019-10-17T16:37:57Z" finished-at="2019-10-17T16:39:17Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="91339" started-at="2019-08-18T06:14:55Z" finished-at="2019-08-18T06:16:26Z">
+    <test name="Default test" duration-ms="79736" started-at="2019-10-17T16:37:57Z" finished-at="2019-10-17T16:39:17Z">
       <class name="testCases.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.LoginPageTest@343f4d3d]" name="setUp" is-config="true" duration-ms="16448" started-at="2019-08-18T06:14:55Z" finished-at="2019-08-18T06:15:12Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.LoginPageTest@39c0f4a]" name="setUp" is-config="true" duration-ms="23709" started-at="2019-10-17T16:37:59Z" finished-at="2019-10-17T16:38:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="VerifywithinValidCredentials(java.lang.String, java.lang.String)[pri:0, instance:testCases.LoginPageTest@343f4d3d]" name="VerifywithinValidCredentials" duration-ms="23983" started-at="2019-08-18T06:15:12Z" data-provider="Login Details1" finished-at="2019-08-18T06:15:36Z">
+        <test-method status="PASS" signature="VerifywithValidCredentials(java.lang.String, java.lang.String)[pri:0, instance:testCases.LoginPageTest@39c0f4a]" name="VerifywithValidCredentials" duration-ms="12421" started-at="2019-10-17T16:38:23Z" data-provider="Login Details" finished-at="2019-10-17T16:38:35Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[mngr212643]]>
+                <![CDATA[Shiva]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[japatar]]>
+                <![CDATA[Regalla]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifywithinValidCredentials -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:testCases.LoginPageTest@343f4d3d]" name="quitDriver" is-config="true" duration-ms="4352" started-at="2019-08-18T06:15:36Z" finished-at="2019-08-18T06:15:40Z">
+        </test-method> <!-- VerifywithValidCredentials -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:testCases.LoginPageTest@39c0f4a]" name="quitDriver" is-config="true" duration-ms="4456" started-at="2019-10-17T16:38:35Z" finished-at="2019-10-17T16:38:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.LoginPageTest@343f4d3d]" name="setUp" is-config="true" duration-ms="15524" started-at="2019-08-18T06:15:40Z" finished-at="2019-08-18T06:15:56Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.LoginPageTest@39c0f4a]" name="setUp" is-config="true" duration-ms="13821" started-at="2019-10-17T16:38:40Z" finished-at="2019-10-17T16:38:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="VerifywithinValidCredentials(java.lang.String, java.lang.String)[pri:0, instance:testCases.LoginPageTest@343f4d3d]" name="VerifywithinValidCredentials" duration-ms="25539" started-at="2019-08-18T06:15:56Z" data-provider="Login Details1" finished-at="2019-08-18T06:16:21Z">
+        <test-method status="PASS" signature="VerifywithValidCredentials(java.lang.String, java.lang.String)[pri:0, instance:testCases.LoginPageTest@39c0f4a]" name="VerifywithValidCredentials" duration-ms="15192" started-at="2019-10-17T16:38:53Z" data-provider="Login Details" finished-at="2019-10-17T16:39:09Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[mngr212643]]>
+                <![CDATA[ShivaRegalla]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[japatar]]>
+                <![CDATA[Regalla]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifywithinValidCredentials -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:testCases.LoginPageTest@343f4d3d]" name="quitDriver" is-config="true" duration-ms="4857" started-at="2019-08-18T06:16:21Z" finished-at="2019-08-18T06:16:26Z">
+        </test-method> <!-- VerifywithValidCredentials -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:testCases.LoginPageTest@39c0f4a]" name="quitDriver" is-config="true" duration-ms="8342" started-at="2019-10-17T16:39:09Z" finished-at="2019-10-17T16:39:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->

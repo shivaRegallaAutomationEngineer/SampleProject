@@ -1,0 +1,25 @@
+# Created at 2019-10-17T22:32:39.482
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(Unknown Source)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+	at java.lang.Thread.run(Unknown Source)
+
+
+# Created at 2019-10-17T22:32:48.414
+Unexpected IOException with stream: Alert was not present 
+
+
+# Created at 2019-10-17T22:32:48.530
+Unexpected IOException: 6,1,testCases.LoginPageTest,VerifywithValidCredentials(testCases.LoginPageTest),null,null,null
+
+
+# Created at 2019-10-17T22:32:56.714
+Unexpected IOException: 8,1,testCases.LoginPageTest,quitDriver(testCases.LoginPageTest),null,chrome not reachable\000A  (Session info: chrome=77.0.3865.120)\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: 'DESKTOP-RUAD0RO'\002C ip: '192.168.1.5'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_201'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 77.0.3865.120\002C chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce...\002C userDataDir: C:\005CUsers\005CPRANIT~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:59082}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 59f6bd8b5330232cdf50728b81bbd7b9,null,chrome not reachable\000A  (Session info: chrome=77.0.3865.120)\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: 'DESKTOP-RUAD0RO'\002C ip: '192.168.1.5'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_201'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 77.0.3865.120\002C chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce...\002C userDataDir: C:\005CUsers\005CPRANIT~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:59082}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 59f6bd8b5330232cdf50728b81bbd7b9,LoginPageTest>BaseClass.quitDriver:50 \00BB WebDriver chrome not reachable\000A  (Sess...,org.openqa.selenium.WebDriverException: \000Achrome not reachable\000A  (Session info: chrome=77.0.3865.120)\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: 'DESKTOP-RUAD0RO'\002C ip: '192.168.1.5'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_201'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 77.0.3865.120\002C chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce...\002C userDataDir: C:\005CUsers\005CPRANIT~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:59082}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 59f6bd8b5330232cdf50728b81bbd7b9\000A
+
+
+# Created at 2019-10-17T22:32:58.610
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+
